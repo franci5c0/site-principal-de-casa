@@ -51,3 +51,20 @@ padding-left: 285px;
     background-color: rgb(13, 86, 134);
 }
 
+
+
+/*MEDIA*/
+@media(min-width: 1920px) {
+
+
+.divisao {
+
+    padding-left: 550px;
+}
+
+
+}
+
+
+
+
