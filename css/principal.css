@@ -1,4 +1,5 @@
 
+/*SITE PRINCIPAL*/
 
 /*CABEÇALHO*/
 
@@ -10,10 +11,6 @@
     max-width: 100%;
 }
 
-.lista a {
-    color: rgb(255, 255, 255);
-
-}
 
 .lista li {
     list-style: none;
@@ -24,25 +21,12 @@
 
 .flex {
 display: flex;
-width: 60%;
-
+width: 80%;
 }
 
-.lista1 {
+.lista {
 
-width: 150%;
-
-padding-right: 100px;
-}
-
-.lista2 {
-    padding-right: 100px;
-    width: 170%;
-
-}
-
-.lista3 {
-width: 150%;
+    padding-left: 100px;
 }
 
 .robo img {
@@ -51,14 +35,11 @@ width: 150%;
 }
 
 
-
-
 /*CORPO*/
 
 .grades {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
 }
 
 .artigos img {
@@ -112,7 +93,6 @@ border-style: initial;
 font-size: 15px;
 }
 
-
 /*RODAPÉ*/
 
 .rodape {
@@ -155,6 +135,321 @@ padding: 10px;
 padding-left: 335px;
     }
 }
+
+
+
+
+
+/*GALERIA*/
+
+/*CABEÇALHO*/
+
+.cabecalho {
+    background-color: rgb(0, 57, 131);
+    }
+    
+    .cabecalho img {
+    width: 10%;
+    }
+    
+
+
+    /*CORPO*/
+    .corpointeiro {
+    background-color: rgb(7, 41, 87);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    h1 {
+    color: azure;
+    font-family:inherit;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+    
+    .grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+        
+    .artigo img {
+    width: 95%;
+    border-radius: 20px;
+    padding-left: 7px;
+    background-color: rgb(0, 0, 0);
+    }
+    
+    .corpo p {
+    
+    color: azure;
+    padding-left: 125px;
+    }
+    
+    /*RODAPÉ*/
+    
+
+    
+
+  /*CARRINHO*/
+
+.topo {
+
+    background-color: aquamarine;
+}
+
+.artigo img {
+width: 100%;
+}
+
+.tudo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(18, 94, 145);
+}
+
+.titulo {
+font-size: 50px;
+text-align: center;
+color: azure;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.corpo {
+background-color: rgb(23, 98, 148);
+}
+
+.pezao p {
+font-size: 50px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: azure;
+text-align: center;
+
+}
+
+.pezao img {
+    width: 20%;
+    padding-left: 100px;
+
+}
+
+.divisao {
+display: flex;
+padding-left: 285px;
+}
+
+.rodape {
+
+    background-color: rgb(13, 86, 134);
+}
+
+
+
+/*MEDIA*/
+@media(min-width: 1920px) {
+
+
+.divisao {
+
+    padding-left: 550px;
+}
+}
+
+
+
+
+/*CONTATO*/
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+.topo-topo {
+
+background-color: rgb(55, 179, 236);
+
+}
+
+
+.corpo {
+
+background-color: rgb(33, 126, 163);
+font-size: 40px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: rgb(221, 235, 30);
+padding-bottom: 40px;
+
+}
+
+
+.pezinho {
+
+padding-top: 100px;
+background-color: rgb(55, 179, 236);
+
+}
+
+.botao2 {
+
+color: azure;
+
+}
+
+
+
+.campo {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(181, 184, 182);
+
+}
+
+.botao {
+
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.contato {
+
+    background-color: rgb(13, 151, 151);
+    padding: 30px;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+
+}
+
+
+select {
+
+
+    margin-left: 10px;
+}
+
+.titulo {
+
+text-align: center;
+font-size: 30px;
+
+}
+
+textarea.campo {
+
+height: 150px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 10px;
+
+}
+
+.rodape a:hover {
+
+color: aqua;
+
+}
+
+.campo:focus {
+
+background-color: rgb(255, 255, 255);
+
+}
+
+.navegador a {
+
+color: rgb(209, 212, 11);
+
+}
+
+.mapa {
+
+width: 100%;
+padding-bottom: 40px;
+padding-top: 40px;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+ .contato {
+
+        background-color: rgb(13, 151, 151);
+        padding: 30px;
+        width: 35%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 60px;
+    
+    }
+
+.titulo {
+
+font-size: 40px;
+
+}
+
+.navegador a {
+    color: rgb(209, 212, 11);
+
+
+}
+
+
+
+}
+
+.botao3 {
+
+font-size: 30px;
+
+}
+
+@media(min-width: 1366px) {
+
+.navegador {
+text-align: left;
+font-size: 20px;
+
+
+}
+
+}
+
+.navegador img {
+
+width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
