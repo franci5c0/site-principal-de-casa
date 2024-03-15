@@ -473,9 +473,18 @@ width: 20%;
 }
 
 
+@media(min-width: 320px) {
+
+
+    .flex {
+        
 
 
 
+    }
+
+
+}
 
 
 
