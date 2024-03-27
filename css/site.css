@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 * {
     box-sizing: border-box
@@ -24,11 +24,6 @@
 
 /*CABEÇALHO | PRINCIPAL*/
 
-.titulo {
-color: var(--aliceblue);
-font-family: "Playfair", cursive;
-text-align: center;
-}
 
 .cabeca {
     background-color: var(--black);
@@ -43,16 +38,21 @@ text-align: center;
     list-style: none;
     width: 100%;
     margin: 20px;
+    
 }
 
+.listas {
+
+padding-left: 55px;
+
+}
 
 .flex {
 display: flex;
 width: 80%;
 }
 
-.lista {
-
+.lista-principal {
     padding-left: 100px;
 }
 
@@ -63,27 +63,33 @@ width: 80%;
 
 .comentario-lista-principal-contato {
 color: var(--aliceblue);
-font-family: "Playfair", cursive;
+font-family: "Russo One", cursive;
 font-size: 20px;
 padding-left: 120px;
 }
 
 .comentario-lista-principal-galeria {
 color: var(--aliceblue);
-font-family: "Playfair", cursive;
+font-family: "Russo One", cursive;
 font-size: 20px;
 padding-left: 160px;
 }
 
 .comentario-lista-principal-carrinho {
 color: var(--aliceblue);
-font-family: "playfair", cursive;
+font-family: "Russo One", cursive;
 font-size: 20px;
 padding-left: 145px;
 
 }
 
 /*CORPO | PRINCIPAL*/
+
+.titulo {
+color: var(--aliceblue);
+font-family: "Workbench", cursive;
+text-align: center;
+}
 
 .grades {
 display: grid;
@@ -206,7 +212,7 @@ padding: 10px;
     
     h1 {
     color: azure;
-    font-family:inherit;
+    font-family:"Russo One", cursive;
     text-align: center;
     padding-bottom: 50px;
     }
@@ -216,10 +222,9 @@ padding: 10px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
     
-  .comentario {
-
+.comentario {
 font-size: 30px;
-font-family: Playfair, 'Times New Roman', Times, serif;
+font-family: "Russo One", 'Times New Roman', Times, serif;
 color: var(--white);
 text-align: center;
   }
@@ -326,11 +331,8 @@ font-size: 30px;
 
 }
 
-.sessao {
-font-family: "Workbench", sans-serif;
-text-align: center;
 
-}
+/*CORPO | CONTATOS*/
 
 .corpo {
 
@@ -339,6 +341,13 @@ font-size: 40px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: rgb(221, 235, 30);
 padding-bottom: 40px;
+
+}
+
+.titulo-label-corpo {
+
+font-family: "Workbench", cursive;
+
 
 }
 
