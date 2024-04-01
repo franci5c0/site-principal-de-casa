@@ -205,16 +205,24 @@ padding: 10px;
     }
 
     .main-main {
-
         padding-left: 10px;
         padding-right: 10px;
     }
     
-    h1 {
+    .primeiro-titulo-galeria {
     color: azure;
     font-family:"Russo One", cursive;
     text-align: center;
     padding-bottom: 50px;
+    }
+
+    .segundo-titulo-galeria {
+font-family: "Russo One", cursive;
+text-align: center;
+color: azure;
+padding-bottom: 50px;
+font-size: 40px;
+
     }
     
     .grade {
