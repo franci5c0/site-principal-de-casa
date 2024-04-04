@@ -267,7 +267,6 @@ text-align: center;
     }
     
 
-
     /*RODAPÉ | GALERIA*/
     
 
@@ -508,4 +507,64 @@ text-decoration: none;
 
 /*RODAPÉ | QUIZ*/
 
- 
+.imagem-casa-quiz img {
+
+max-width: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+/*ERROU | QUIZ*/
+
+/*CORPO | ERROU QUIZ*/
+.texto-errou {
+    color:  var(--red);
+    font-family: "Russo One", cursive;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 296px;
+
+}
+
+.corpo-quiz-errou {
+    background-image:url(erro.gif);
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+
+/*RODAPÉ | ERROU QUIZ*/
+.link-errou-quiz img {
+max-width: 10%;
+padding-top: 120px;
+}
+
+.comentario-quiz-errou { 
+    color: var(--aliceblue);
+}
+
+.strong-quiz-errou {
+        width: 60%;
+        padding: 30px;
+        border-radius: 20px;
+        display: block;
+        border-color: var(--red);
+        border-left: 5px solid var(--red);
+        border-right: 5px solid var(--red);
+        font-family: "Russo One", cursive;
+        font-size: 30px;
+        color: var(--aliceblue);
+        background-color: var(--red);
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+}
