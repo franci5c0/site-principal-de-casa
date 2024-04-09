@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 * {
     box-sizing: border-box
@@ -65,6 +65,18 @@ width: 80%;
     padding-left: 100px;
 }
 
+.strong-principal-titulo {
+
+    color: var(--aliceblue);
+    font-family: "Bungee Spice", cursive;
+   padding-left: 788px;
+font-size: 20px;
+
+}
+
+
+
+
 .imagem-poster-principal img {
 
   width: 100%;
@@ -73,21 +85,21 @@ width: 80%;
 
 .comentario-lista-principal-contato {
 color: var(--aliceblue);
-font-family: "Russo One", cursive;
+font-family: "Bungee Spice", cursive;
 font-size: 20px;
 padding-left: 200px;
 }
 
 .comentario-lista-principal-galeria {
 color: var(--aliceblue);
-font-family: "Russo One", cursive;
+font-family: "Bungee Spice", cursive;
 font-size: 20px;
 padding-left: 237px;
 }
 
 .comentario-lista-principal-carrinho {
 color: var(--aliceblue);
-font-family: "Russo One", cursive;
+font-family: "Bungee Spice", cursive;
 font-size: 20px;
 padding-left: 230px;
 
@@ -97,17 +109,18 @@ padding-left: 230px;
 
 .titulo {
 color: var(--aliceblue);
-font-family: "Workbench", cursive;
+font-family: "Bungee Spice", cursive;
 text-align: center;
 }
 
-.grades {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+.flex-principal {
+display:flex;
+padding-left: 58px;
+margin-bottom: 40px;
 }
 
 .artigos img {
-max-width: 300px;
+width: 80%;
 display: block;
 border-radius: 20px;
 padding-left: 5px;
@@ -125,9 +138,33 @@ margin-right: auto;
 background-color: rgb(8, 8, 8);
 }
 
+.strong-principal {
+font-size: 20px;
+font-family: "Bungee Spice", cursive;
+padding-left: 120px;
+}
 
 
+.strong-principal-comida {
+    font-size: 20px;
+    font-family: "Bungee Spice", cursive;
+    padding-left: 140px;
+    }
 
+
+.strong-principal-cinema {
+font-size: 20px;
+font-family: "Bungee Spice", cursive;
+padding-left: 145px;
+}
+      
+
+.strong-principal-jogos {
+font-size: 20px;
+font-family: "Bungee Spice", cursive;
+padding-left: 140px;
+}
+       
 
 .artigos {
 
