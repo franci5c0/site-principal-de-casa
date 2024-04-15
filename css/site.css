@@ -35,34 +35,26 @@
 
 .cabeca {
     background-color: var(--black);
+    padding-left: 170px;
 }
 
 .cabeca img {
-    max-width: 100%;
+width: 55%;
+ padding-left: 540px;
 }
 
-
 .lista li {
-    list-style: none;
-    width: 100%;
-    margin: 20px;
-    
+
 }
 
 .listas {
 
-padding-left: 100px;
-width: 120%;
-
 }
 
-.flex {
-display: flex;
-width: 80%;
-}
+
 
 .lista-principal {
-    padding-left: 100px;
+ 
 }
 
 .strong-principal-titulo {
@@ -75,35 +67,14 @@ font-size: 20px;
 }
 
 
-
-
-.imagem-poster-principal img {
-
-  width: 100%;
-
-}
-
-.comentario-lista-principal-contato {
+.comentario-lista-principal-geral {
 color: var(--aliceblue);
 font-family: "Bungee Spice", cursive;
-font-size: 20px;
-padding-left: 200px;
-}
-
-.comentario-lista-principal-galeria {
-color: var(--aliceblue);
-font-family: "Bungee Spice", cursive;
-font-size: 20px;
+font-size: 35px;
 padding-left: 237px;
+padding-left: 680px;
 }
 
-.comentario-lista-principal-carrinho {
-color: var(--aliceblue);
-font-family: "Bungee Spice", cursive;
-font-size: 20px;
-padding-left: 230px;
-
-}
 
 /*CORPO | PRINCIPAL*/
 
